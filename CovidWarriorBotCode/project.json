@@ -1,0 +1,69 @@
+{
+  "name": "CovidWarriorBot",
+  "description": "Automation is responsible to collect data about covid cases in India, classify if provided lungs x-ray is covid affected or not and enter all details in SFDC CRM.",
+  "main": "Main.xaml",
+  "dependencies": {
+    "Microsoft.Activities": "[1.0.1]",
+    "Microsoft.Activities.Extensions": "[2.0.6.9]",
+    "UiPath.Credentials.Activities": "[1.1.6479.13204]",
+    "UiPath.DataService.Activities": "[21.6.1]",
+    "UiPath.Excel.Activities": "[2.10.3-preview]",
+    "UiPath.Mail.Activities": "[1.11.0-preview]",
+    "UiPath.MLServices.Activities": "[1.1.6]",
+    "UiPath.Python.Activities": "[1.3.0]",
+    "UiPath.System.Activities": "[21.4.0-preview]",
+    "UiPath.UIAutomation.Activities": "[21.4.1-preview]",
+    "UiPath.WebAPI.Activities": "[1.7.0]"
+  },
+  "webServices": [],
+  "entitiesStores": [
+    {
+      "serviceDocument": ".entities/EntitiesStore.json",
+      "tenantName": "RPATeamDefault",
+      "namespace": "CovidWarriorBot",
+      "uniqueReference": "Dcaph4izTqg2Fm06oF8XQt2HkdEYmZmt4zl2BSsPtjg="
+    }
+  ],
+  "schemaVersion": "4.0",
+  "studioVersion": "21.4.0.0",
+  "projectVersion": "1.0.4",
+  "runtimeOptions": {
+    "autoDispose": false,
+    "isPausable": true,
+    "requiresUserInteraction": true,
+    "supportsPersistence": false,
+    "excludedLoggedData": [
+      "Private:*",
+      "*password*"
+    ],
+    "executionType": "Workflow",
+    "readyForPiP": false,
+    "startsInPiP": false
+  },
+  "designOptions": {
+    "projectProfile": "Developement",
+    "outputType": "Process",
+    "libraryOptions": {
+      "includeOriginalXaml": false,
+      "privateWorkflows": []
+    },
+    "processOptions": {
+      "ignoredFiles": []
+    },
+    "fileInfoCollection": [],
+    "modernBehavior": false
+  },
+  "expressionLanguage": "VisualBasic",
+  "entryPoints": [
+    {
+      "filePath": "Main.xaml",
+      "uniqueId": "cf870f91-e9a9-4a12-b7e4-6a6f314a29cb",
+      "input": [],
+      "output": []
+    }
+  ],
+  "isTemplate": false,
+  "templateProjectData": {},
+  "publishData": {},
+  "targetFramework": "Legacy"
+}
